@@ -6,23 +6,68 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		A8FA90522EE9C91300602A5B /* IPTV5014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTV5014.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		295B22F619D42CDCFDC3DBDF /* Pods_IPTV5014.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92A8F0C69286116FF983EC0 /* Pods_IPTV5014.framework */; };
+		A84B41692EE9F09700431D31 /* UIHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B41682EE9F09700431D31 /* UIHelpers.swift */; };
+		A84B416D2EE9F0C400431D31 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B416C2EE9F0C400431D31 /* PlayerViewModel.swift */; };
+		A84B416F2EE9F4C500431D31 /* PlaylistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84B416E2EE9F4C500431D31 /* PlaylistManager.swift */; };
+		A8E16FC02EEADCCD00920344 /* LiquidBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E16FBF2EEADCCD00920344 /* LiquidBackground.swift */; };
+		A8E16FC22EEAE09700920344 /* StalkerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E16FC12EEAE09700920344 /* StalkerTypes.swift */; };
+		A8E16FC42EEAE9BE00920344 /* XtreamViewModel+Xtream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E16FC32EEAE9BE00920344 /* XtreamViewModel+Xtream.swift */; };
+		A8E16FC62EEAE9CF00920344 /* XtreamViewModel+Stalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E16FC52EEAE9CF00920344 /* XtreamViewModel+Stalker.swift */; };
+		A8E16FC82EEAE9E900920344 /* XtreamViewModel+M3U.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E16FC72EEAE9E900920344 /* XtreamViewModel+M3U.swift */; };
+		A8EE57432EEB4AE5006C03C9 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE57422EEB4AE5006C03C9 /* PlayerManager.swift */; };
+		A8EE57452EEB4AF8006C03C9 /* FloatingPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE57442EEB4AF8006C03C9 /* FloatingPlayerView.swift */; };
+		A8EE57472EEB5130006C03C9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE57462EEB5130006C03C9 /* SplashView.swift */; };
+		A8EE57492EEB5438006C03C9 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EE57482EEB5438006C03C9 /* LanguageManager.swift */; };
+		A8FA90682EE9C9E300602A5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90642EE9C9E300602A5B /* ContentView.swift */; };
+		A8FA90692EE9C9E300602A5B /* IPTV5014App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90662EE9C9E300602A5B /* IPTV5014App.swift */; };
+		A8FA906A2EE9C9E300602A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8FA90632EE9C9E300602A5B /* Assets.xcassets */; };
+		A8FA90702EE9CA6B00602A5B /* IPTVModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA906F2EE9CA6B00602A5B /* IPTVModels.swift */; };
+		A8FA90722EE9CAD100602A5B /* XtreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90712EE9CAD100602A5B /* XtreamViewModel.swift */; };
+		A8FA90742EE9CB6D00602A5B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90732EE9CB6D00602A5B /* LoginView.swift */; };
+		A8FA90782EE9CC9000602A5B /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90772EE9CC9000602A5B /* CategoryGridView.swift */; };
+		A8FA907A2EE9CCB900602A5B /* ChannelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA90792EE9CCB900602A5B /* ChannelListView.swift */; };
+		A8FA907C2EE9CD4B00602A5B /* VLCPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA907B2EE9CD4B00602A5B /* VLCPlayerView.swift */; };
+		A8FA907E2EE9CD6900602A5B /* StreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FA907D2EE9CD6900602A5B /* StreamPlayerView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		A8FA90542EE9C91300602A5B /* IPTV5014 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = IPTV5014;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		811BC20A525AC6997B21A5CF /* Pods-IPTV5014.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPTV5014.release.xcconfig"; path = "Target Support Files/Pods-IPTV5014/Pods-IPTV5014.release.xcconfig"; sourceTree = "<group>"; };
+		A84B41682EE9F09700431D31 /* UIHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelpers.swift; sourceTree = "<group>"; };
+		A84B416C2EE9F0C400431D31 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		A84B416E2EE9F4C500431D31 /* PlaylistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistManager.swift; sourceTree = "<group>"; };
+		A8E16FBF2EEADCCD00920344 /* LiquidBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidBackground.swift; sourceTree = "<group>"; };
+		A8E16FC12EEAE09700920344 /* StalkerTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkerTypes.swift; sourceTree = "<group>"; };
+		A8E16FC32EEAE9BE00920344 /* XtreamViewModel+Xtream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XtreamViewModel+Xtream.swift"; sourceTree = "<group>"; };
+		A8E16FC52EEAE9CF00920344 /* XtreamViewModel+Stalker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XtreamViewModel+Stalker.swift"; sourceTree = "<group>"; };
+		A8E16FC72EEAE9E900920344 /* XtreamViewModel+M3U.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XtreamViewModel+M3U.swift"; sourceTree = "<group>"; };
+		A8EE57422EEB4AE5006C03C9 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		A8EE57442EEB4AF8006C03C9 /* FloatingPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlayerView.swift; sourceTree = "<group>"; };
+		A8EE57462EEB5130006C03C9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A8EE57482EEB5438006C03C9 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		A8FA90522EE9C91300602A5B /* IPTV5014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTV5014.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8FA90632EE9C9E300602A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8FA90642EE9C9E300602A5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8FA90652EE9C9E300602A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FA90662EE9C9E300602A5B /* IPTV5014App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTV5014App.swift; sourceTree = "<group>"; };
+		A8FA906F2EE9CA6B00602A5B /* IPTVModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTVModels.swift; sourceTree = "<group>"; };
+		A8FA90712EE9CAD100602A5B /* XtreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XtreamViewModel.swift; sourceTree = "<group>"; };
+		A8FA90732EE9CB6D00602A5B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A8FA90772EE9CC9000602A5B /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		A8FA90792EE9CCB900602A5B /* ChannelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelListView.swift; sourceTree = "<group>"; };
+		A8FA907B2EE9CD4B00602A5B /* VLCPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLCPlayerView.swift; sourceTree = "<group>"; };
+		A8FA907D2EE9CD6900602A5B /* StreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamPlayerView.swift; sourceTree = "<group>"; };
+		CA03BB640640961562F90A7C /* Pods-IPTV5014.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPTV5014.debug.xcconfig"; path = "Target Support Files/Pods-IPTV5014/Pods-IPTV5014.debug.xcconfig"; sourceTree = "<group>"; };
+		D92A8F0C69286116FF983EC0 /* Pods_IPTV5014.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IPTV5014.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A8FA904F2EE9C91300602A5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				295B22F619D42CDCFDC3DBDF /* Pods_IPTV5014.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +77,10 @@
 		A8FA90492EE9C91300602A5B = {
 			isa = PBXGroup;
 			children = (
-				A8FA90542EE9C91300602A5B /* IPTV5014 */,
+				A8FA90672EE9C9E300602A5B /* IPTV5014 */,
 				A8FA90532EE9C91300602A5B /* Products */,
+				D0497827849BAFA8F857F377 /* Pods */,
+				AB061BF9697375BB3DDEF775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +92,77 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A8FA90672EE9C9E300602A5B /* IPTV5014 */ = {
+			isa = PBXGroup;
+			children = (
+				A8FA906E2EE9CA0100602A5B /* ViewModel */,
+				A8FA906D2EE9C9F900602A5B /* View */,
+				A8FA906C2EE9C9ED00602A5B /* Model */,
+				A8FA90632EE9C9E300602A5B /* Assets.xcassets */,
+				A8FA90652EE9C9E300602A5B /* Info.plist */,
+				A8FA90662EE9C9E300602A5B /* IPTV5014App.swift */,
+			);
+			path = IPTV5014;
+			sourceTree = "<group>";
+		};
+		A8FA906C2EE9C9ED00602A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8FA906F2EE9CA6B00602A5B /* IPTVModels.swift */,
+				A84B416E2EE9F4C500431D31 /* PlaylistManager.swift */,
+				A8E16FC12EEAE09700920344 /* StalkerTypes.swift */,
+				A8EE57482EEB5438006C03C9 /* LanguageManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8FA906D2EE9C9F900602A5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8FA90642EE9C9E300602A5B /* ContentView.swift */,
+				A8FA90732EE9CB6D00602A5B /* LoginView.swift */,
+				A8FA90772EE9CC9000602A5B /* CategoryGridView.swift */,
+				A8FA90792EE9CCB900602A5B /* ChannelListView.swift */,
+				A8FA907B2EE9CD4B00602A5B /* VLCPlayerView.swift */,
+				A8FA907D2EE9CD6900602A5B /* StreamPlayerView.swift */,
+				A84B41682EE9F09700431D31 /* UIHelpers.swift */,
+				A8E16FBF2EEADCCD00920344 /* LiquidBackground.swift */,
+				A8EE57442EEB4AF8006C03C9 /* FloatingPlayerView.swift */,
+				A8EE57462EEB5130006C03C9 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8FA906E2EE9CA0100602A5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8FA90712EE9CAD100602A5B /* XtreamViewModel.swift */,
+				A84B416C2EE9F0C400431D31 /* PlayerViewModel.swift */,
+				A8E16FC32EEAE9BE00920344 /* XtreamViewModel+Xtream.swift */,
+				A8E16FC52EEAE9CF00920344 /* XtreamViewModel+Stalker.swift */,
+				A8E16FC72EEAE9E900920344 /* XtreamViewModel+M3U.swift */,
+				A8EE57422EEB4AE5006C03C9 /* PlayerManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB061BF9697375BB3DDEF775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D92A8F0C69286116FF983EC0 /* Pods_IPTV5014.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0497827849BAFA8F857F377 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA03BB640640961562F90A7C /* Pods-IPTV5014.debug.xcconfig */,
+				811BC20A525AC6997B21A5CF /* Pods-IPTV5014.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,20 +170,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8FA905D2EE9C91400602A5B /* Build configuration list for PBXNativeTarget "IPTV5014" */;
 			buildPhases = (
+				B02D69FB2B7E04F1C4DEEF25 /* [CP] Check Pods Manifest.lock */,
 				A8FA904E2EE9C91300602A5B /* Sources */,
 				A8FA904F2EE9C91300602A5B /* Frameworks */,
 				A8FA90502EE9C91300602A5B /* Resources */,
+				821D15916656BAC084EDFDF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				A8FA90542EE9C91300602A5B /* IPTV5014 */,
-			);
 			name = IPTV5014;
-			packageProductDependencies = (
-			);
 			productName = IPTV5014;
 			productReference = A8FA90522EE9C91300602A5B /* IPTV5014.app */;
 			productType = "com.apple.product-type.application";
@@ -109,16 +224,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FA906A2EE9C9E300602A5B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		821D15916656BAC084EDFDF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPTV5014/Pods-IPTV5014-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IPTV5014/Pods-IPTV5014-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IPTV5014/Pods-IPTV5014-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B02D69FB2B7E04F1C4DEEF25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPTV5014-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A8FA904E2EE9C91300602A5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8FA90782EE9CC9000602A5B /* CategoryGridView.swift in Sources */,
+				A8E16FC22EEAE09700920344 /* StalkerTypes.swift in Sources */,
+				A84B41692EE9F09700431D31 /* UIHelpers.swift in Sources */,
+				A8FA90682EE9C9E300602A5B /* ContentView.swift in Sources */,
+				A8FA907A2EE9CCB900602A5B /* ChannelListView.swift in Sources */,
+				A8FA907C2EE9CD4B00602A5B /* VLCPlayerView.swift in Sources */,
+				A8E16FC62EEAE9CF00920344 /* XtreamViewModel+Stalker.swift in Sources */,
+				A8FA90722EE9CAD100602A5B /* XtreamViewModel.swift in Sources */,
+				A8FA90692EE9C9E300602A5B /* IPTV5014App.swift in Sources */,
+				A8FA907E2EE9CD6900602A5B /* StreamPlayerView.swift in Sources */,
+				A8EE57452EEB4AF8006C03C9 /* FloatingPlayerView.swift in Sources */,
+				A8FA90742EE9CB6D00602A5B /* LoginView.swift in Sources */,
+				A8E16FC82EEAE9E900920344 /* XtreamViewModel+M3U.swift in Sources */,
+				A84B416F2EE9F4C500431D31 /* PlaylistManager.swift in Sources */,
+				A8FA90702EE9CA6B00602A5B /* IPTVModels.swift in Sources */,
+				A8EE57492EEB5438006C03C9 /* LanguageManager.swift in Sources */,
+				A8EE57432EEB4AE5006C03C9 /* PlayerManager.swift in Sources */,
+				A84B416D2EE9F0C400431D31 /* PlayerViewModel.swift in Sources */,
+				A8EE57472EEB5130006C03C9 /* SplashView.swift in Sources */,
+				A8E16FC42EEAE9BE00920344 /* XtreamViewModel+Xtream.swift in Sources */,
+				A8E16FC02EEADCCD00920344 /* LiquidBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,13 +429,17 @@
 		};
 		A8FA905E2EE9C91400602A5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA03BB640640961562F90A7C /* Pods-IPTV5014.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X59F39V2T9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IPTV5014/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -263,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emanuel5014.IPTV5014;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanuel5014.IPTV5014;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -277,13 +464,17 @@
 		};
 		A8FA905F2EE9C91400602A5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811BC20A525AC6997B21A5CF /* Pods-IPTV5014.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X59F39V2T9;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IPTV5014/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = emanuel5014.IPTV5014;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emanuel5014.IPTV5014;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
