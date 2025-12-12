@@ -1,0 +1,22 @@
+{
+  "name": "IPTV Access",
+  "identifier": "com.emanuel5014.IPTV5014",
+  "apps": [
+    {
+      "name": "IPTV Access",
+      "bundleIdentifier": "com.emanuel5014.IPTV5014",
+      "developerName": "Emanuel5014",
+      "version": "1.0",
+      "versionDate": "2025-10-12",
+      "versionDescription": "Release iniziale con supporto Xtream, Stalker e M3U.",
+      "downloadURL": "https://github.com/Emanuel5014/IPTV-Access/releases/download/v1.0/IPTV5014.ipa",
+      "localizedDescription": "Player IPTV avanzato con supporto PiP, Multi-Protocollo e interfaccia Liquid Glass.",
+      "iconURL": "https://raw.githubusercontent.com/Emanuel5014/IPTV-Access/main/AppIcon.png",
+      "tintColor": "#0f0c29",
+      "screenshotURLs": [
+        "https://raw.githubusercontent.com/TUO_USER/IPTV-Access/main/Screenshots/login.png",
+        "https://raw.githubusercontent.com/TUO_USER/IPTV-Access/main/Screenshots/home.png"
+      ]
+    }
+  ]
+}
