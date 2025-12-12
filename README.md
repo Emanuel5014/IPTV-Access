@@ -16,7 +16,7 @@ Un player IPTV moderno, open source e nativo per iOS, scritto interamente in Swi
 Non serve compilare il codice! Puoi installare l'app direttamente tramite AltStore.
 
 1. Copia questo link:
-   `https://raw.githubusercontent.com/TUO_USER/IPTV-Access/main/apps.json`
+   `https://raw.githubusercontent.com/Emanuel5014/IPTV-Access/main/apps.json`
    
 2. Apri **AltStore** sul tuo iPhone/iPad.
 3. Vai su **My Apps** -> **+** -> **Add Source**.
@@ -27,4 +27,4 @@ Non serve compilare il codice! Puoi installare l'app direttamente tramite AltSto
 
 1. Clona la repository:
    ```bash
-   git clone [https://github.com/TUO_USER/IPTV-Access.git](https://github.com/TUO_USER/IPTV-Access.git)
+   git clone [https://github.com/Emanuel5014/IPTV-Access.git](https://github.com/Emanuel5014/IPTV-Access.git)
